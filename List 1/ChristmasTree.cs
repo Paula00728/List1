@@ -9,37 +9,37 @@ namespace List_1
     class ChristmasTree : Program
     {      
         public static string userInput;
-        public static int weight;
+        public static int height;
 
         public void BasicProgram()
         {
             Console.WriteLine("Christmas Tree");
-            Console.WriteLine("Christmas tree weight");
+            Console.WriteLine("Christmas tree height");
             userInput = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(userInput))
             {
-                Console.WriteLine("You must select christmas tree weight");
+                Console.WriteLine("You must select christmas tree height");
             }
 
             else
             {
-                weight = int.Parse(userInput);
-                PaintChristmasTree(weight);
+                height = int.Parse(userInput);
+                PaintChristmasTree(height);
             }
         }
 
-        void PaintChristmasTree(int weight)
+        void PaintChristmasTree(int height)
         {
             int counter = 1;
             Console.ForegroundColor = ConsoleColor.Green;
-            for (int i = 1; i <= weight; i++)
+            for (int i = 0; i <= height; i++)
             {    
                 {
-                    for (int j = 1; j <= weight + i - 1; j++)
-                        if (j > weight - i)
+                    for (int j = 0; j <= height + i; j++)
+                        if (j > height - i)
                         {
-                            if(counter%2==0)
+                            if(counter%2==1)
                                 Console.Write("*");
                             else
                             {
@@ -48,19 +48,11 @@ namespace List_1
                             counter++;
                         }
                         else
-                            Console.Write(" ");
-                    Console.WriteLine();
-                    counter = 1;
+                        Console.Write(" ");
+                        Console.WriteLine();
+                        counter = 1;
                 }
             }
-            for (int j = 0; j < 1; j++)
-            {
-                for (int i = 0; i < weight - 1; i++)
-                {
-                    Console.Write(" ");
-                }
-            }
-
         }
     }
 }
