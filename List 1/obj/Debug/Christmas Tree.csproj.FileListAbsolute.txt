@@ -1,0 +1,7 @@
+C:\Users\placzynska\source\repos\List 1\List 1\obj\Debug\Christmas Tree.csprojAssemblyReference.cache
+C:\Users\placzynska\source\repos\List 1\List 1\obj\Debug\Christmas Tree.csproj.CoreCompileInputs.cache
+C:\Users\placzynska\source\repos\List 1\List 1\bin\Debug\List 1.exe.config
+C:\Users\placzynska\source\repos\List 1\List 1\bin\Debug\List 1.exe
+C:\Users\placzynska\source\repos\List 1\List 1\bin\Debug\List 1.pdb
+C:\Users\placzynska\source\repos\List 1\List 1\obj\Debug\List 1.exe
+C:\Users\placzynska\source\repos\List 1\List 1\obj\Debug\List 1.pdb
