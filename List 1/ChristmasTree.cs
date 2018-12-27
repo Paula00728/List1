@@ -39,7 +39,7 @@ namespace List_1
                     for (int j = 1; j <= weight + i - 1; j++)
                         if (j > weight - i)
                         {
-                            if(counter%2==0)
+                            if(counter%2==1)
                                 Console.Write("*");
                             else
                             {
@@ -48,9 +48,9 @@ namespace List_1
                             counter++;
                         }
                         else
-                            Console.Write(" ");
-                    Console.WriteLine();
-                    counter = 1;
+                        Console.Write(" ");
+                        Console.WriteLine();
+                        counter = 1;
                 }
             }
             for (int j = 0; j < 1; j++)
